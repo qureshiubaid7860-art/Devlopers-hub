@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Cart</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/web-cart.css">
+    <link rel="stylesheet" href="./Css/web-detail.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <!-- Header Top -->
+        <section class="header-1">
+            <div class="navbar w-80">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img class="logo-symbol" src="./images/assets/Layout/Brand/logo-colored.png"
+                            alt="E-commerce company logo">
+                    </a>
+                </div>
+                <div class="icons">
+
+                    <div class="icon-container">
+                        <i class="ri-user-fill"></i>
+                        <a href="#">
+                            <p>Profile</p>
+                        </a>
+                    </div>
+
+                    <div class="icon-container">
+                        <i class="ri-message-2-fill"></i>
+                        <a href="#">
+                            <p>Message</p>
+                        </a>
+                    </div>
+
+                    <div class="icon-container">
+                        <i class="ri-poker-hearts-fill"></i>
+                        <a href="#">
+                            <p>Orders</p>
+                        </a>
+                    </div>
+
+                    <div class="icon-container">
+                        <i class="ri-shopping-cart-2-fill"></i>
+                        <a href="#">
+                            <p>Cart</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div class="cart w-80">
+                <h2>My cart (3)</h2>
+            </div>
+        </section>
+        <section>
+
+            <div class="cart-container w-80">
+
+                <!-- LEFT SIDE -->
+                <div class="cart-left">
+
+                    <!-- ITEM 1 -->
+                    <div class="cart-item">
+                        <img src="./images/Image/cloth/1.jpg" alt="">
+
+                        <div class="item-details">
+                            <h4>T-shirts with multiple colors, for men and lady</h4>
+                            <p>Size: medium, Color: blue, Material: Plastic</p>
+                            <p class="seller">Seller: Artel Market</p>
+
+                            <div class="item-actions">
+                                <button class="remove">Remove</button>
+                                <button class="save">Save for later</button>
+                            </div>
+                        </div>
+
+                        <div class="item-right">
+                            <h4>$78.99</h4>
+                            <select>
+                                <option>Qty: 9</option>
+                                <option>Qty: 1</option>
+                                <option>Qty: 2</option>
+                                <option>Qty: 3</option>
+                                <option>Qty: 4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 2 -->
+                    <div class="cart-item">
+                        <img src="./images/Image/cloth/5.jpg" alt="">
+
+                        <div class="item-details">
+                            <h4>T-shirts with multiple colors, for men and lady</h4>
+                            <p>Size: medium, Color: blue, Material: Plastic</p>
+                            <p class="seller">Seller: Best factory LLC</p>
+
+                            <div class="item-actions">
+                                <button class="remove">Remove</button>
+                                <button class="save">Save for later</button>
+                            </div>
+                        </div>
+
+                        <div class="item-right">
+                            <h4>$39.00</h4>
+                            <select>
+                                <option>Qty: 3</option>
+                                <option>Qty: 1</option>
+                                <option>Qty: 2</option>
+                                <option>Qty: 4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 3 -->
+                    <div class="cart-item">
+                        <img src="./images/Image/interior/6.jpg" alt="">
+
+                        <div class="item-details">
+                            <h4>T-shirts with multiple colors, for men and lady</h4>
+                            <p>Size: medium, Color: blue, Material: Plastic</p>
+                            <p class="seller">Seller: Artel Market</p>
+
+                            <div class="item-actions">
+                                <button class="remove">Remove</button>
+                                <button class="save">Save for later</button>
+                            </div>
+                        </div>
+
+                        <div class="item-right">
+                            <h4>$170.50</h4>
+                            <select>
+                                <option>Qty: 1</option>
+                                <option>Qty: 2</option>
+                                <option>Qty: 3</option>
+                                <option>Qty: 4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="cart-bottom">
+                        <button class="back">← Back to shop</button>
+                        <button class="remove-all">Remove all</button>
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT SIDE SUMMARY -->
+                <div class="cart-right">
+
+                    <div class="coupon-box">
+                        <p>Have a coupon?</p>
+                        <div class="coupon-input">
+                            <input type="text" placeholder="Add coupon">
+                            <button>Apply</button>
+                        </div>
+                    </div>
+
+                    <div class="summary-box">
+                        <div class="row">
+                            <span>Subtotal:</span>
+                            <span>$1403.97</span>
+                        </div>
+                        <div class="row discount">
+                            <span>Discount:</span>
+                            <span>- $60.00</span>
+                        </div>
+                        <div class="row tax">
+                            <span>Tax:</span>
+                            <span>+ $14.00</span>
+                        </div>
+
+                        <hr>
+
+                        <div class="row total">
+                            <span>Total:</span>
+                            <span>$1357.97</span>
+                        </div>
+
+                        <button class="checkout">Checkout</button>
+                        <div class="payment-icons">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/American_Express_logo.svg"
+                                alt="Amex">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg"
+                                alt="Mastercard">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+                                alt="Apple Pay">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="features-strip w-80">
+
+            <div class="feature-item">
+                <div class="icon-box">
+                    <i class="ri-lock-2-line"></i>
+                </div>
+                <div class="feature-text">
+                    <h4>Secure payment</h4>
+                    <p>Have you ever finally just</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="icon-box">
+                    <i class="ri-customer-service-2-line"></i>
+                </div>
+                <div class="feature-text">
+                    <h4>Customer support</h4>
+                    <p>Have you ever finally just</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="icon-box">
+                    <i class="ri-truck-line"></i>
+                </div>
+                <div class="feature-text">
+                    <h4>Free delivery</h4>
+                    <p>Have you ever finally just</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="saved-section w-80">
+            
+            <h2>Saved for later</h2>
+            <div class="saved-grid">
+
+                <!-- Card 1 -->
+                <div class="saved-card">
+                    <div class="image-box">
+                        <img src="images/Image/tech/2.jpg" alt="">
+                    </div>
+                    <h3>$99.50</h3>
+                    <p>GoPro HERO6 4K Action<br>Camera - Black</p>
+                    <button>
+                        <i class="ri-shopping-cart-line"></i>
+                        Move to cart
+                    </button>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="saved-card">
+                    <div class="image-box">
+                        <img src="images/Image/tech/4.jpg" alt="">
+                    </div>
+                    <h3>$99.50</h3>
+                    <p>GoPro HERO6 4K Action<br>Camera - Black</p>
+                    <button>
+                        <i class="ri-shopping-cart-line"></i>
+                        Move to cart
+                    </button>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="saved-card">
+                    <div class="image-box">
+                        <img src="images/Image/tech/8.jpg" alt="">
+                    </div>
+                    <h3>$99.50</h3>
+                    <p>GoPro HERO6 4K Action<br>Camera - Black</p>
+                    <button>
+                        <i class="ri-shopping-cart-line"></i>
+                        Move to cart
+                    </button>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="saved-card">
+                    <div class="image-box">
+                        <img src="images/Image/tech/7.jpg" alt="">
+                    </div>
+                    <h3>$99.50</h3>
+                    <p>GoPro HERO6 4K Action<br>Camera - Black</p>
+                    <button>
+                        <i class="ri-shopping-cart-line"></i>
+                        Move to cart
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="discount-banner w-80">
+
+                <div class="discount-content">
+                    <h2>Super discount on more than 100 USD</h2>
+                    <p>Have you ever finally just write dummy info</p>
+                </div>
+
+                <button class="shop-btn">Shop now</button>
+
+            </div>
+        </section>
+
+    </main>
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="footer-container w-80">
+
+            <!-- Brand Section -->
+            <div class="footer-box brand">
+                <a href="./index.html">
+                    <img class="logo" src="./images/assets/Layout/Brand/logo-colored.png" alt="E-commerce company logo">
+                </a>
+
+                <p>
+                    Best information about the company goes here but now lorem ipsum is placeholder text.
+                </p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-x-fill"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                </div>
+            </div>
+
+            <!-- About -->
+            <div class="footer-box">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Find Store</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+            </div>
+
+            <!-- Partnership -->
+            <div class="footer-box">
+                <h4>Partnership</h4>
+                <ul>
+                    <li><a href="#">Become a Seller</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                    <li><a href="#">Wholesale</a></li>
+                    <li><a href="#">Partnerships</a></li>
+                </ul>
+            </div>
+
+            <!-- Information -->
+            <div class="footer-box">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Money Refund</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Get App -->
+            <div class="footer-box">
+                <h4>Get App</h4>
+
+                <div class="app-buttons">
+                    <img src="./images/assets/Layout/Misc/market-button.png" alt="Download on App Store">
+                    <img src="./images/assets/Layout/Misc/Group.png" alt="Download on Google Play">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="width100">
+            <div class="footer-2 w-80">
+                <div class="footer-bottom ">
+                    <p>© 2026 UB@ID QURESHI. All rights reserved.</p>
+                </div>
+                <div class="language-selector">
+                    <div class="selected-country" id="selectedCountry">
+                        <img src="./images/Property 1=US.png" alt="USA Flag" class="flag">
+                        <span class="country-name">English</span>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                    <ul class="country-options" id="countryOptions">
+                        <li data-flag="./images/ae-flag.png" data-name="Arabic">
+                            <img src="./images/Property 1=AE.png" class="flag"> Arabic
+                        </li>
+                        <li data-flag="./images/us-flag.png" data-name="English">
+                            <img src="./images/Property 1=US.png" class="flag"> English
+                        </li>
+                        <li data-flag="./images/de-flag.png" data-name="German">
+                            <img src="./images/ger.png" class="flag"> German
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </footer>
+
+
+</body>
+
+</html>

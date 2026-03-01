@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+.cart h2 {
+    margin: 20px 0px;
+}
+
+.cart-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* LEFT SIDE */
+.cart-left {
+    flex: 3;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+.cart-left h2 {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+}
+
+.item-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.item-details h4 {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.item-details p {
+    font-size: 14px;
+    color: #777;
+}
+
+.seller {
+    margin-top: 5px;
+}
+
+.item-actions {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.item-actions button {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #DEE2E7;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.remove {
+    background: transparent;
+    color: red;
+    /* margin-right: 10px; */
+}
+
+.save {
+    background: transparent;
+    color: #0066ff;
+}
+
+.item-right {
+    text-align: right;
+}
+
+.item-right h4 {
+    margin-bottom: 10px;
+}
+
+.item-right select {
+    padding: 5px 8px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+/* BOTTOM BUTTONS */
+.cart-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.back {
+    background: #0066ff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-all {
+    background-color: transparent;
+    border: 1px solid #DEE2E7;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #0066ff;
+}
+
+/* RIGHT SIDE */
+.cart-right {
+    flex: 1.5;
+}
+
+.coupon-box {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+.coupon-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+.coupon-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+.coupon-input button {
+    padding: 8px 12px;
+    border: none;
+    background: transparent;
+    color: #0066ff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    border: 1px solid #DEE2E7;
+}
+
+.summary-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.summary-box .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+    font-size: 20px;
+    color: #333;
+}
+
+.discount span:last-child {
+    color: red;
+}
+
+.tax span:last-child {
+    color: green;
+}
+
+.summary-box hr {
+    border: none;
+    border-top: 1px solid #bbb;
+    margin: 20px 0;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.checkout {
+    width: 100%;
+    margin-top: 25px;
+    padding: 18px 16px;
+    background: #00B517;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.checkout:hover {
+    background: #006600;
+}
+
+.payment-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.payment-icons img {
+    height: 28px;
+    padding: 6px 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.payment-icons img:hover {
+    transform: scale(1.05);
+}
+
+.discount span:last-child {
+    color: red;
+}
+
+.tax span:last-child {
+    color: green;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.checkout {
+    margin-top: 15px;
+    padding: 10px;
+    background: green;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+.features-strip {
+    background: #f5f5f5;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 40px;
+    /* margin: 10px ; */
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-box {
+    width: 45px;
+    height: 45px;
+    background: #e9ecef;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box i {
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.feature-text h4 {
+    font-size: 15px;
+    margin: 0;
+    color: #222;
+}
+
+.feature-text p {
+    font-size: 13px;
+    margin: 4px 0 0;
+    color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.saved-section {
+    background: #fff;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+
+.saved-section h2 {
+    font-size: 20px;
+    margin: 0px 0 10px 20px;
+    display: inline-block;
+    color: #222;
+}
+
+.saved-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.saved-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    /* border: 1px solid #e5e5e5; */
+}
+
+.image-box {
+    background: #f3f3f3;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.saved-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #222;
+}
+
+.saved-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.saved-card button {
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    padding: 8px 14px;
+    font-size: 14px;
+    color: #0d6efd;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.saved-card button:hover {
+    background: #f0f7ff;
+}
